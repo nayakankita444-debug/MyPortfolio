@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankita | Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body class="bg-gray-900 text-white font-sans">
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-gray-800 bg-opacity-80 backdrop-blur-md shadow-md z-50">
+      <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+        <h1 class="text-2xl font-bold text-indigo-400">Ankita</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-indigo-400 transition">Home</a></li>
+          <li><a href="#about" class="hover:text-indigo-400 transition">About</a></li>
+          <li><a href="#projects" class="hover:text-indigo-400 transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-indigo-400 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20"
+    >
+      <h2 class="text-5xl sm:text-6xl font-extrabold mb-4 animate-fadeIn">
+        Hi, I'm <span class="text-indigo-400">Ankita</span> 👋
+      </h2>
+      <p class="text-xl text-gray-300 mb-8 animate-slideUp">
+        A passionate <span class="text-indigo-400">Front-End Developer</span> who loves creating beautiful,
+        responsive websites with animations.
+      </p>
+      <a
+        href="#projects"
+        class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold transition transform hover:scale-105"
+      >
+        View My Work
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold text-indigo-400 mb-8">About Me</h3>
+        <p class="max-w-2xl mx-auto text-gray-300 leading-relaxed">
+          I’m a self-taught developer with a deep love for clean design and smooth user experiences.
+          My goal is to bring creative ideas to life using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>,
+          and <strong>Tailwind CSS</strong>. I enjoy working on both personal and professional projects that challenge my creativity.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-bold text-center text-indigo-400 mb-12">My Projects</h3>
+        <div class="grid md:grid-cols-3 gap-10">
+          <!-- Project 1 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-500 animate-fadeIn"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 1"
+              class="rounded-lg mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">Portfolio Website</h4>
+            <p class="text-gray-300">
+              A personal portfolio built with Tailwind CSS showcasing my skills and projects.
+            </p>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-500 animate-fadeIn"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 2"
+              class="rounded-lg mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">E-commerce UI</h4>
+            <p class="text-gray-300">
+              A responsive e-commerce front-end layout using Tailwind utilities and transitions.
+            </p>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-500 animate-fadeIn"
+          >
+            <img
+              src="https://via.placeholder.com/400x250"
+              alt="Project 3"
+              class="rounded-lg mb-4"
+            />
+            <h4 class="text-xl font-semibold mb-2">Animated Login Form</h4>
+            <p class="text-gray-300">
+              A minimal and interactive login form with animations and hover effects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800 text-center">
+      <h3 class="text-3xl font-bold text-indigo-400 mb-6">Get In Touch</h3>
+      <p class="text-gray-300 mb-8">
+        I'm open to new opportunities, collaborations, or just a friendly chat!
+      </p>
+      <a
+        href="mailto:youremail@example.com"
+        class="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold transition transform hover:scale-105"
+      >
+        Say Hello 👋
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-center py-6 text-gray-400">
+      © 2025 Smruti — Built with ❤ using Tailwind CSS
+    </footer>
+  </body>
+</html>
